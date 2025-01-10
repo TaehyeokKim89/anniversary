@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "baseUrl": "src",
     "target": "es5",
     "lib": [
       "dom",
@@ -22,5 +23,13 @@
   },
   "include": [
     "src"
-  ]
+  ],
+  "path" : {
+    "@/*":["src/*"],
+    "@pages/*": ["pages/*"],
+    "@components/*":["components/*"],
+    "@shared/*":["shared/*"],
+    "@models/*":["models/*"],
+    "@contexts/*":["contexts/*"]
+  }
 }
